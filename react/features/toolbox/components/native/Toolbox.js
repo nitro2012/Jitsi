@@ -93,14 +93,14 @@ function Toolbox(props: Props) {
                 edges = { [ bottomEdge && 'bottom' ].filter(Boolean) }
                 pointerEvents = 'box-none'
                 style = { styles.toolbox }>
-                {!_visitorsModeEnabled && <AudioMuteButton
+                {/* {!_visitorsModeEnabled && <AudioMuteButton
                     styles = { buttonStylesBorderless }
                     toggledStyles = { toggledButtonStyles } />
                 }
                 {!_visitorsModeEnabled && <VideoMuteButton
                     styles = { buttonStylesBorderless }
                     toggledStyles = { toggledButtonStyles } />
-                }
+                } */}
                 {!_visitorsModeEnabled && additionalButtons.has('chat')
                       && <ChatButton
                           styles = { buttonStylesBorderless }

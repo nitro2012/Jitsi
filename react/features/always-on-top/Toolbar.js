@@ -51,8 +51,8 @@ export default class Toolbar extends Component<Props> {
                 className = { `toolbox-content-items always-on-top-toolbox ${className}` }
                 onMouseOut = { onMouseOut }
                 onMouseOver = { onMouseOver }>
-                <AudioMuteButton />
-                <VideoMuteButton />
+                {/* <AudioMuteButton />
+                <VideoMuteButton /> */}
                 <HangupButton customClass = 'hangup-button' />
             </div>
         );
